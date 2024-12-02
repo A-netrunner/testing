@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  base:'/vite-website/',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
