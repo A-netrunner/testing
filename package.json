@@ -3,8 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://A-netrunner.github.io/test",
+
+  
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
